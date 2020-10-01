@@ -85,9 +85,9 @@ async def addstreamer(ctx, twitch_name, discord_name: discord.Member):
             await discord_name.add_roles(streamers_role)
 
 
-bot.run(TOKEN)
+# bot.run(TOKEN)
 
-# client.run(TOKEN)
+client.run(TOKEN)
 
 
 
